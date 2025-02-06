@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nlogconsoleapp", "nlogconso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet-Core-WebApi", "..\DotNet-Core-WebApi\DotNet-Core-WebApi.csproj", "{EBA1109F-8911-48B4-8EA9-06126A69F864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nlogconsoleapp.Tests", "..\nlogconsoleapp.Tests\nlogconsoleapp.Tests.csproj", "{79B06EF8-FC32-4E83-998C-C1541AC70983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet-Core-WebApiTests", "..\DotNet-Core-WebApiTests\DotNet-Core-WebApiTests.csproj", "{1B0C5619-2953-4925-B7DD-CFCEC5A105D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B06EF8-FC32-4E83-998C-C1541AC70983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B06EF8-FC32-4E83-998C-C1541AC70983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B06EF8-FC32-4E83-998C-C1541AC70983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B06EF8-FC32-4E83-998C-C1541AC70983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0C5619-2953-4925-B7DD-CFCEC5A105D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0C5619-2953-4925-B7DD-CFCEC5A105D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0C5619-2953-4925-B7DD-CFCEC5A105D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0C5619-2953-4925-B7DD-CFCEC5A105D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
