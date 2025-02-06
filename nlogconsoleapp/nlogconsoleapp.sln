@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nlogconsoleapp", "nlogconsoleapp.csproj", "{6979B37C-5268-4AAB-9D00-A9927136A323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet-Core-WebApi", "..\DotNet-Core-WebApi\DotNet-Core-WebApi.csproj", "{EBA1109F-8911-48B4-8EA9-06126A69F864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6979B37C-5268-4AAB-9D00-A9927136A323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6979B37C-5268-4AAB-9D00-A9927136A323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6979B37C-5268-4AAB-9D00-A9927136A323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA1109F-8911-48B4-8EA9-06126A69F864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
