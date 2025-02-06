@@ -3,14 +3,13 @@ using Microsoft.Extensions.DependencyInjection;
 using NLog;
 using nlogconsoleapp.IServices;
 using nlogconsoleapp.Services;
-using System.Runtime.InteropServices;
 
 namespace nlogconsoleapp;
 public static class Program
 {
     public static async Task Main(string[] args)
     {
-
+        var isTestMode = args.Length > 0 && args[0] == "test"; 
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false,reloadOnChange:true)
@@ -25,9 +24,15 @@ public static class Program
 
         var serviceProvider = services.BuildServiceProvider();
         var runing = serviceProvider.GetService<IWorker>();
-        if(runing != null )
+        if(!isTestMode)
         {
             await runing.WorkerRunner();
+
         }
+        else
+        {
+            Environment.ExitCode = 0;
+        }
+
     }
 }
